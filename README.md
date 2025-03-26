@@ -11,5 +11,8 @@ CREATE TABLE test_fast_ingest (
 ## configure 
 #change the username,password and connect string.
 
+## instal priver
+pip install oracledb
+
 ## run test 
 python  fastInjest1.py
