@@ -8,11 +8,11 @@ CREATE TABLE test_fast_ingest (
 ) SEGMENT CREATION IMMEDIATE
   MEMOPTIMIZE FOR WRITE;
 
-## configure 
+## Configure 
 #change the username,password and connect string.
 
-## install priver
+## Install driver
 pip install oracledb
 
-## run test 
+## Run test 
 python  fastInjest1.py
